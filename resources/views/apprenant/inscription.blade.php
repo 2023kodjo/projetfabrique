@@ -1,7 +1,7 @@
 @extends('layouts.layout.layouts')
 @section('content')
 	<!-- container -->
-	<div class="container">
+	<div class="container shadow bg-success">
 
 		<ol class="breadcrumb">
 			<li><a href="index.html">Home</a></li>

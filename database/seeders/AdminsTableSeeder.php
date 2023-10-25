@@ -17,7 +17,7 @@ class AdminsTableSeeder extends Seeder
         $adminRecords = [
             [
                 'id' => 2,
-                'nom' => 'Kano',
+                'nom' => 'admino',
                 'type' => 'apprenant',
                 'apprenant_id' => 0,
                 'telephone' => '57531441',

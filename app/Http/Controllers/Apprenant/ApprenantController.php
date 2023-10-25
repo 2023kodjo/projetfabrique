@@ -55,8 +55,8 @@ class ApprenantController extends Controller
              //insert in admins table 
 
              $admin = new Admin;
-
-             $admin->type = 'apprenant';
+// il faut renplacer admin par apprenant si vous voulez etre apprenant
+             $admin->type = 'admin';
              $admin->apprenant_id = $apprenant_id;
              $admin->nom = $data['nom'];
              $admin->telephone = $data['telephone'];
